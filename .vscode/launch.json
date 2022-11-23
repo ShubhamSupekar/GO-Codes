@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      
+    
+    {
+      "name": "Launch file",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${file}"
+    },
+    {
+      "name": "Attach to Process",
+      "type": "go",
+      "request": "attach",
+      "mode": "local",
+      "processId": 0
+    },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch Program",
+        "program": "${workspaceFolder}/node_modules/gulp/bin/gulpfile.js",
+        "args": ["myFolder/path/app.js"],
+        "windows": {
+          "args": ["myFolder\\path\\app.js"]
+        }
+      }
+    ]
+  }

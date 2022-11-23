@@ -1,0 +1,25 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "Data Structures"
+        },
+        {
+            "path": "..\\Project\\4th year project\\Python project"
+        },
+        {
+            "path": "..\\Project\\Drowseyness detection"
+        },
+        {
+            "path": "Trial"
+        }
+    ],
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+        
+        ]
+    }
+}
